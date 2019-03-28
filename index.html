@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>título do documento</h1>
+    <h2>Subtítulo</h2>
+    <h3>terceiro nivel</h3>
+
+    <a href="#">Link para lugar nenhum </a>
+
+    <p id='primeiro'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore, ea a ullam adipisci minus maxime quis nobis quam, beatae consequatur odit suscipit eos illum voluptates! Animi odio labore consequuntur?</p>
+    <p>Magnam vel, blanditiis expedita velit assumenda qui dolores! Ipsam placeat fugit vero assumenda delectus, possimus <span class="sublinhado"></span> officiis aut harum pariatur quaerat fugiat. Aspernatur voluptas, fugiat dignissimos alias pariatur adipisci laborum atque!</p>
+    <p>Blanditiis dolorem, cumque facilis possimus, esse exercitationem, sequi velit quod alias cum quae dolorum. Amet alias distinctio quidem vitae obcaecati odit ratione fugiat animi, quibusdam commodi itaque, maxime ut quaerat!</p>
+
+
+
+    <script>
+        function trimLeft(){
+            console.log(this);
+let r=''
+let copy=false;
+for(let i=0; i<this.txt.length;i++){
+    if(copy || this.txt[i] != ' '){
+        copy= true;
+        r+=txt.charAt(i);
+    }
+}
+return r;
+}
+
+
+
+const o ={
+    nome: 'teste',
+    txt:' um texto ',
+    tleft: trimLeft
+};
+//chamando a função trimleft no contexo de o (o será o this)
+trimLeft.call(o)
+    </script>
+
+
+
+
+
+</body>
+</html>

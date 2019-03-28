@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+h1{
+    font-size:20pt;
+    text-align: center;
+    /*Familia de fontes*/
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-seri;
+}
+
+
+h1:hover{
+  color: palevioletred;
+}
+h2{
+    font-size:30pt;
+    font-family:cursive;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-seri;
+}
+
+h3{
+  font-size: 25pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  /* desloc x desçc y desfoque cof */
+  text-shadow: 5px 5px 10px black;
+  font-family: 'Oswald', sans-seri;
+}
+
+
+p#primeiro{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-family: 'Oswald', sans-seri;
+}
+
+p:nth-of-type(2){ /* o segundo p */
+    color: darkred;
+    text-decoration: justify;
+}
+span.sublinhado{
+    text-decoration: underline
+}
+
+a{
+    text-decoration:none;
+}
+
+P:last-of-type{
+    line-height: 20pt;
+}
